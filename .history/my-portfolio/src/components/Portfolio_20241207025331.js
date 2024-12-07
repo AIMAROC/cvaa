@@ -301,7 +301,7 @@ const Portfolio = () => {
         'Architected scalable backend systems handling 10000+ concurrent users and 1M+ requests per day',
         'Developed real-time collaborative learning features and progress tracking systems',
         'Integrated advanced LLM agents for personalized tutoring and automated content generation',
-        "Acces: Deeprof.com"
+        "Acces: Deeprof.cm"
       ],
       technologies: ['React', 'FastAPI', 'LLM', 'AI Agents', 'Python', 'Machine Learning', 'MongoDB','Redis']
     },

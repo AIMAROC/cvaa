@@ -301,7 +301,16 @@ const Portfolio = () => {
         'Architected scalable backend systems handling 10000+ concurrent users and 1M+ requests per day',
         'Developed real-time collaborative learning features and progress tracking systems',
         'Integrated advanced LLM agents for personalized tutoring and automated content generation',
-        "Acces: Deeprof.com"
+        "Acces: Hi Justin,
+
+Thank you for reaching out! I'm delighted to connect with someone who shares a deep interest in causal inference. Your background in biostatistics is particularly interesting, as it offers a unique perspective on causal analysis that complements my work in deep learning applications for causal inference.
+
+I'd be very interested in hearing about your experiences applying causal inference methods in biostatistics, particularly any challenges you've encountered in bridging theoretical frameworks with practical applications. My recent work has focused on representation balancing for survival causal inference, and I'd be happy to discuss potential intersections between our research interests.
+
+Looking forward to meaningful exchanges and potential collaboration opportunities!
+
+Best regards,
+Ayoub"
       ],
       technologies: ['React', 'FastAPI', 'LLM', 'AI Agents', 'Python', 'Machine Learning', 'MongoDB','Redis']
     },
