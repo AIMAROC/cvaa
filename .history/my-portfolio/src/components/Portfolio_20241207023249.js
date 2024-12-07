@@ -200,7 +200,7 @@ const Portfolio = () => {
     location: 'Evry, France',
     email: 'abraich.jobs@gmail.com',
     phone: '+33 (0) XXX-XXX-XXX',
-    linkedin: 'https://linkedin.com/in/ayoub-abraich',
+    linkedin: 'https://linkedin.com/in/ayoubabraich',
     github: 'https://github.com/ayoubabraich',
     bio: `I am a highly accomplished Data Scientist and AI Research Engineer with a proven track record of delivering impactful solutions in Natural Language Processing (NLP) and Deep Learning. Holding a Master's degree in Data Science and with over four years of experience, I specialize in causal inference, domain adaptation, and cutting-edge research. My proficiency in Python, PyTorch, and TensorFlow, combined with a relentless drive, allows me to contribute to pioneering projects and push the boundaries of AI.`,
   };

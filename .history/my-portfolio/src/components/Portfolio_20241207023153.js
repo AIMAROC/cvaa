@@ -60,9 +60,6 @@ import {
   Facebook as FacebookIcon
 } from '@mui/icons-material';
 
-
-const profileImage = require('./me.png');
-
 const Portfolio = () => {
   // State management
   const [darkMode, setDarkMode] = useState(true);
@@ -200,7 +197,7 @@ const Portfolio = () => {
     location: 'Evry, France',
     email: 'abraich.jobs@gmail.com',
     phone: '+33 (0) XXX-XXX-XXX',
-    linkedin: 'https://linkedin.com/in/ayoub-abraich',
+    linkedin: 'https://linkedin.com/in/ayoubabraich',
     github: 'https://github.com/ayoubabraich',
     bio: `I am a highly accomplished Data Scientist and AI Research Engineer with a proven track record of delivering impactful solutions in Natural Language Processing (NLP) and Deep Learning. Holding a Master's degree in Data Science and with over four years of experience, I specialize in causal inference, domain adaptation, and cutting-edge research. My proficiency in Python, PyTorch, and TensorFlow, combined with a relentless drive, allows me to contribute to pioneering projects and push the boundaries of AI.`,
   };
@@ -335,19 +332,18 @@ const Portfolio = () => {
   const DrawerContent = () => (
     <Box sx={{ pt: 2 }}>
       <Box sx={{ p: 2, textAlign: 'center' }}>
-      <Avatar
-  src={profileImage}
-  alt={personalInfo.name}
-  sx={{ 
-    width: 150,
-    height: 150,
-    mx: 'auto',
-    mb: 3,
-    border: '3px solid',
-    borderColor: 'primary.main',
-    boxShadow: 3,
-  }}
-/>
+        <Avatar
+          src=""
+          alt={personalInfo.name}
+          sx={{ 
+            width: 80, 
+            height: 80, 
+            mx: 'auto',
+            mb: 1,
+            border: '2px solid',
+            borderColor: 'primary.main'
+          }}
+        />
         <Typography variant="h6" noWrap>
           {personalInfo.name}
         </Typography>
@@ -402,19 +398,19 @@ const Portfolio = () => {
     >
       <Fade in={!loading} timeout={1000}>
         <Container maxWidth="md" sx={{ textAlign: 'center' }}>
-        <Avatar
-  src={profileImage}
-  alt={personalInfo.name}
-  sx={{ 
-    width: 150,
-    height: 150,
-    mx: 'auto',
-    mb: 3,
-    border: '3px solid',
-    borderColor: 'primary.main',
-    boxShadow: 3,
-  }}
-/>
+          <Avatar
+            src="/api/placeholder/150/150"
+            alt={personalInfo.name}
+            sx={{
+              width: 150,
+              height: 150,
+              mx: 'auto',
+              mb: 3,
+              border: '3px solid',
+              borderColor: 'primary.main',
+              boxShadow: 3,
+            }}
+          />
           <Typography variant="h1" gutterBottom>
             {personalInfo.name}
           </Typography>
